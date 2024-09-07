@@ -1,7 +1,7 @@
 <?php
 class Database {
     private $host = 'localhost';
-    private $db_name = 'informa_tec';
+    private $db_name = 'RestauranteCM'; //NOME DO BANCO DE DADOS
     private $username = 'root';
     private $password = '';
     private $conn;
