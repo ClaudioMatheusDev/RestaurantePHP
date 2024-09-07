@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.card{
+margin: 10px;
+padding: 100px
+}
+.card-title{
+width: 500px;
+}
+.card-text{
+width: 200px;
+}
+
+header{
+text-align: center;
+}
+header h1{
+  font-family: 'Georgia', serif; 
+  font-size: 3em; 
+  font-weight: bold; 
+  color: #333; 
+ background-color: #f4f4f4;
+  padding: 20px; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+header p {
+  font-family: 'Arial', sans-serif; 
+  font-size: 1.2em; 
+  color: #666; 
+  margin-top: 10px; 
+  line-height: 1.6;
+  padding: 15px; 
+  border-radius: 5px;
+  text-align: center; 
+}
+
+
