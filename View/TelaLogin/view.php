@@ -6,14 +6,23 @@ class View
 
     public function MontaHome()
     {
-        echo '<div class="row row-cols-1 row-cols-md-3 g-4">
+        echo '
+        <header> 
+<div>
+<h1>Bem vindo ao Restaurante!</h1>
+<p>Escolha uma opção</p>
+</div>
+
+</header>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card">
       <img src="..." class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Cardapio</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       </div>
+	<a href="#" class='btn btn-primary'>Registrar novo Pedido!</a>
     </div>
   </div>
   <div class="col">
@@ -21,8 +30,8 @@ class View
       <img src="..." class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Ver historico de pedidos</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       </div>
+	<a href="#" class='btn btn-primary'>Veja seu historico de pedidos!</a>
     </div>
   </div>
   <div class="col">
@@ -30,10 +39,11 @@ class View
       <img src="..." class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Faça um novo pedido!</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
       </div>
+	<a href='novoPedido.php' class='btn btn-primary'>Registrar novo Pedido!</a>
     </div>
-  </div>';
+  </div>
+        ';
 
     }//Função montando o Menu Inicial
 
