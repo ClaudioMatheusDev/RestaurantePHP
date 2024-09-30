@@ -1,8 +1,8 @@
 <?php
 
 require "Model/model.php";
-require "View/TelaLogin/view.php";
-require "View/TelaNovoPedido/view.php";
+require "index.php";
+require "View/PaginaPedidos.php";
 
 
 class Controller
@@ -20,11 +20,7 @@ class Controller
         $view->MontaHome();
     }
 
-     public function Registra_Pedidos()
-    {
-        $view = new View();
-        $view->PaginaPedidos();
-    }
+
 
 
 
