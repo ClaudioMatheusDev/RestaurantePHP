@@ -22,7 +22,7 @@ class View
       <div class="card-body">
         <h5 class="card-title">Cardapio</h5>
       </div>
-	<a href="#" class='btn btn-primary'>Registrar novo Pedido!</a>
+	<a href="#" class="btn btn-primary">Registrar novo Pedido!</a>
     </div>
   </div>
   <div class="col">
@@ -31,7 +31,7 @@ class View
       <div class="card-body">
         <h5 class="card-title">Ver historico de pedidos</h5>
       </div>
-	<a href="#" class='btn btn-primary'>Veja seu historico de pedidos!</a>
+	<a href="#" class="btn btn-primary">Veja seu historico de pedidos!</a>
     </div>
   </div>
   <div class="col">
@@ -40,7 +40,7 @@ class View
       <div class="card-body">
         <h5 class="card-title">Faça um novo pedido!</h5>
       </div>
-	<a href='novoPedido.php' class='btn btn-primary'>Registrar novo Pedido!</a>
+	<a href="novoPedido.php" class="btn btn-primary">Registrar novo Pedido!</a>
     </div>
   </div>
         ';
